@@ -1,0 +1,13 @@
+{
+  "hosting": {
+	"public" : "dist/north-west-roctaract",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    }
+  }
+}
