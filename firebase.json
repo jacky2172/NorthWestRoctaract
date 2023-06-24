@@ -1,6 +1,6 @@
 {
   "hosting": {
-	"public" : "dist/north-west-roctaract",
+	"public" : "dist/north-west-rotaract",
     "ignore": [
       "firebase.json",
       "**/.*",

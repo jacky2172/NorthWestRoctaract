@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'north-west-roctaract'`, () => {
+  it(`should have as title 'north-west-rotaract'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('north-west-roctaract');
+    expect(app.title).toEqual('north-west-rotaract');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('north-west-roctaract app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('north-west-rotaract app is running!');
   });
 });
